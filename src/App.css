@@ -1,0 +1,54 @@
+.section-styling{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-text{
+  text-align: center;
+  padding: 25px;
+  background-color: #3AB4F2;
+}
+
+.scanner-img{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-styling{
+  color: #333;
+  background-color: #fff;
+  font-size: 1rem;
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+  width: 120px;
+  margin: 10px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.btn-styling:link, .btn-styling:visited{
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  transition: all 0.4s ease-in;
+}
+
+.btn-styling:hover, .btn-styling:active{
+  color: #fff;
+  background-color: #3AB4F2;
+}
+
+.note{
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.603);
+}
